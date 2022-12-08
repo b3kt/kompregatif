@@ -87,11 +87,6 @@
                     </li>
                 @endforeach
             </ul>
-
-
-            {{-- @if (Auth::user()->hasRole('admin'))
-                <admin-menu :items="{{ menu('admin', '_json')->filter(function ($item) { return !$item->hidden; }) }}"></admin-menu>
-            @endif --}}
         </div>
     </nav>
 </div>

@@ -41,7 +41,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 
     Route::get('app-kelas/relation', [ 'uses'=>'App\Http\Controllers\OptionsController@relation', 'as'=>'voyager.app-kelas.relation']);
-    //
+    Route::get('app-kelas/{id}', [ 'uses'=>'App\Http\Controllers\AppKelasController@show', 'as'=>'voyager.app-kelas.show']);
 
     // Your overwrites here
     // Route::get('bpm-app-instances', [BpmAppInstanceController::class, 'index']);
