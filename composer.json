@@ -17,6 +17,7 @@
         "laravel/tinker": "^2.7",
         "league/oauth2-client": "^2.6",
         "maatwebsite/excel": "^3.1",
+        "monstrex/voyager-extension": "^0.95.6",
         "psr/simple-cache": "^2.0",
         "tcg/voyager": "^1.5"
     },
